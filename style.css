@@ -1,0 +1,89 @@
+/*
+ Theme Name:        GeneratePress Child | Fields
+ Theme URI:         https://generatepress.com/?ref=7960&campaign=GitHub
+ Description:       Default GeneratePress child theme
+ Author:            John Vener Cruz
+ Template:          generatepress
+ Version:           1.0.5
+*/
+
+@font-face {
+  font-family: 'Lato';
+  src: url('assets/fonts/Lato-Regular.woff2') format('woff2'),
+       url('assets/fonts/Lato-Regular.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lato Bold';
+  src: url('assets/fonts/Lato-Bold.woff2') format('woff2'),
+       url('assets/fonts/Lato-Bold.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Sen';
+  src: url('assets/fonts/Sen-Regular.woff2') format('woff2'),
+       url('assets/fonts/Sen-Regular.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Sen Bold';
+  src: url('assets/fonts/Sen-Bold.woff2') format('woff2'),
+       url('assets/fonts/Sen-Bold.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('assets/fonts/Montserrat-Regular.woff2') format('woff2'),
+       url('assets/fonts/Montserrat-Regular.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url('assets/fonts/Montserrat-Bold.woff2') format('woff2'),
+       url('assets/fonts/Montserrat-Bold.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Font Declaration */
+body, button, input, select, textarea {
+    font-family: Lato, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat Bold, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-weight: 700;
+}
+
+/* Hero section glass effect */
+.glass-bg {
+    background-color: rgba(33, 33, 33, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(33, 33, 33, 0.1);
+
+}
+
+button.wp-block-search__button.has-icon.wp-element-button {
+    background: transparent;
+    color: #fff;
+}
+
+.card-content {
+      background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(33, 33, 33, 0.1);
+    margin: 5em !important;
+}
+
+.wp-block-cover, .wp-block-cover-image {
+  padding: 150px 1em 138px;
+}
