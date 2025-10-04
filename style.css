@@ -4,61 +4,31 @@
  Description:       Default GeneratePress child theme
  Author:            John Vener Cruz
  Template:          generatepress
- Version:           1.0.5
+ Version:           1.0.6
  GitHub Theme URI:  https://github.com/johnvener/fields-com-ph
  Primary Branch:    main
 */
 
 @font-face {
-  font-family: 'Lato';
-  src: url('assets/fonts/Lato-Regular.woff2') format('woff2'),
-       url('assets/fonts/Lato-Regular.woff') format('woff');
+  font-family: 'Cuprum Regular';
+  src: url('assets/fonts/Cuprum-Regular.woff2') format('woff2');
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Lato Bold';
-  src: url('assets/fonts/Lato-Bold.woff2') format('woff2'),
-       url('assets/fonts/Lato-Bold.woff') format('woff');
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Sen';
-  src: url('assets/fonts/Sen-Regular.woff2') format('woff2'),
-       url('assets/fonts/Sen-Regular.woff') format('woff');
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Sen Bold';
-  src: url('assets/fonts/Sen-Bold.woff2') format('woff2'),
-       url('assets/fonts/Sen-Bold.woff') format('woff');
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Montserrat';
-  src: url('assets/fonts/Montserrat-Regular.woff2') format('woff2'),
-       url('assets/fonts/Montserrat-Regular.woff') format('woff');
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Montserrat Bold';
-  src: url('assets/fonts/Montserrat-Bold.woff2') format('woff2'),
-       url('assets/fonts/Montserrat-Bold.woff') format('woff');
+  font-family: 'Cuprum Bold';
+  src: url('assets/fonts/Cuprum-Bold.woff2') format('woff2');
   font-style: normal;
   font-display: swap;
 }
 
 /* Font Declaration */
 body, button, input, select, textarea {
-    font-family: Lato, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Cuprum Regular', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Montserrat Bold, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-family: 'Cuprum Bold', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
 }
 
@@ -78,7 +48,7 @@ button.wp-block-search__button.has-icon.wp-element-button {
 }
 
 .card-content {
-      background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     border-radius: 15px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
