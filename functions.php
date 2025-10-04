@@ -92,8 +92,7 @@ $enable_scrolling_logos_assets = true;
 
 if ($enable_scrolling_logos_assets) {
     add_action('wp_enqueue_scripts', function () {
-        if (is_page() && $_SERVER['REQUEST_URI'] === '/up/stage/') {
-
+       if (is_front_page()) {
             wp_enqueue_style(
                 'swiper-css',
                 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css',
