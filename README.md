@@ -6,7 +6,7 @@ Default Child Theme for GeneratePress can be used as a starters template and mod
 
 ## Installation
 1. Download the latest version of the theme:
-https://github.com/WPSpeedExpert/generatepress-child/releases/latest
+https://github.com/johnvener/fields-com-ph/
 2. On your WordPress admin interface, go to Appearance > Themes.
 3. Click on the “Add New” button.
 4. Click on the “Upload Theme” button.
