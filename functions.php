@@ -78,7 +78,7 @@ if ($enable_sticky_header) {
 function my_theme_enqueue_scripts() {
     wp_enqueue_script(
         'sticky-header', 
-        get_stylesheet_directory_uri() . '/assets/js/sticky-header.js', 
+        get_stylesheet_directory_uri() . '//assets/js/sticky-header.js', 
         array(), 
         '1.0.0', 
         true // load in footer
@@ -102,9 +102,9 @@ if ($enable_scrolling_logos_assets) {
 
             wp_enqueue_style(
                 'scrolling-logos-style',
-                get_stylesheet_directory_uri() . 'assets/css/scrolling-logos.css',
+                get_stylesheet_directory_uri() . '/assets/css/scrolling-logos.css',
                 array('swiper-css'),
-                filemtime(get_stylesheet_directory() . 'assets/css/scrolling-logos.css')
+                filemtime(get_stylesheet_directory() . '/assets/css/scrolling-logos.css')
             );
 
             wp_enqueue_script(
@@ -117,15 +117,15 @@ if ($enable_scrolling_logos_assets) {
 
             wp_enqueue_script(
                 'scrolling-logos-script',
-                get_stylesheet_directory_uri() . 'assets/js/scrolling-logos.js',
+                get_stylesheet_directory_uri() . '/assets/js/scrolling-logos.js',
                 array('swiper-js'),
-                filemtime(get_stylesheet_directory() . 'assets/js/scrolling-logos.js'),
+                filemtime(get_stylesheet_directory() . '/assets/js/scrolling-logos.js'),
                 true
             );
 
             // Pass logo image base URL to JavaScript
             wp_localize_script('scrolling-logos-script', 'scrollingLogosData', [
-                'imgBaseUrl' => get_stylesheet_directory_uri() . 'assets/img/logos/',
+                'imgBaseUrl' => get_stylesheet_directory_uri() . '/assets/img/logos/',
             ]);
         }
     });
